@@ -30,6 +30,18 @@ public:
     //// STUDENT CODE
     ////
 
+    // Copy constructor
+    ChatBot(const ChatBot &source);
+
+    // Copy assignment operator
+    ChatBot &operator=(const ChatBot &source);
+
+    // Move contructor
+    ChatBot(const ChatBot &&source);
+
+    // Move assignment operator
+    ChatBot &operator=(const ChatBot &&source);
+
     ////
     //// EOF STUDENT CODE
 
