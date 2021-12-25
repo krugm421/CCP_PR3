@@ -30,6 +30,8 @@ public:
     //// STUDENT CODE
     ////
 
+    // Task 2: Make the calls complient to the "rule of 5"
+
     // Copy constructor
     ChatBot(const ChatBot &source);
 
@@ -37,10 +39,10 @@ public:
     ChatBot &operator=(const ChatBot &source);
 
     // Move contructor
-    ChatBot(const ChatBot &&source);
+    ChatBot(ChatBot &&source);
 
     // Move assignment operator
-    ChatBot &operator=(const ChatBot &&source);
+    ChatBot &operator=(ChatBot &&source);
 
     ////
     //// EOF STUDENT CODE
